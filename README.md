@@ -1,7 +1,7 @@
 # AI-Assisted Flower Classification for Conservation
 
 **Course:** Applied Machine Learning (DATASCI 207) — UC Berkeley MIDS  
-**Team:** Emily Lieske, Samantha Townsend
+**Team:** Emily Lieske, Samantha Townsend, Elaine Chan, David Diaz
 
 ## Overview
 
@@ -50,3 +50,5 @@ kaggle competitions download -c tpu-getting-started
 ├── EfficientNet.ipynb                          <- EfficientNet transfer learning
 └── ResNet.ipynb                                <- ResNet transfer learning
 ```
+## Disclaimer
+This repository is for academic purposes only. While the dataset and methods are real, the project is exploratory in nature and should not be interpreted as definitive scientific research or policy guidance.
