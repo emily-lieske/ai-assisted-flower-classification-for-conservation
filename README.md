@@ -37,7 +37,7 @@ To download the dataset:
 ```bash
 pip install kaggle
 kaggle competitions download -c tpu-getting-started
-
+```
 ## Project Structure
 ├── Preprocessing.ipynb                         <- Data loading, augmentation pipeline,
 │                                                  and TFRecord parsing
