@@ -51,8 +51,8 @@ kaggle competitions download -c tpu-getting-started
 └── ResNet.ipynb                                <- ResNet transfer learning
 ```
 ## Kaggle Publications
-https://www.kaggle.com/code/emilylieske/efficientnetb0-baseline
-https://www.kaggle.com/code/emilylieske/efficientnetb1-hyperparameter-tuned
+1. https://www.kaggle.com/code/emilylieske/efficientnetb0-baseline
+2. https://www.kaggle.com/code/emilylieske/efficientnetb1-hyperparameter-tuned
 
 ## Access the App
 https://coruscating-panda-43f8a6.netlify.app/
