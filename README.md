@@ -39,6 +39,7 @@ pip install kaggle
 kaggle competitions download -c tpu-getting-started
 ```
 ## Project Structure
+```
 ├── Preprocessing.ipynb                         <- Data loading, augmentation pipeline,
 │                                                  and TFRecord parsing
 ├── Townsend207EDA.ipynb                        <- Exploratory data analysis and
@@ -48,4 +49,4 @@ kaggle competitions download -c tpu-getting-started
 ├── samantha-townsend-pretrained-densenet121    <- DenseNet121 transfer learning
 ├── EfficientNet.ipynb                          <- EfficientNet transfer learning
 └── ResNet.ipynb                                <- ResNet transfer learning
-
+```
