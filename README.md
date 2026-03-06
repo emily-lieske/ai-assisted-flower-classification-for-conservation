@@ -24,5 +24,28 @@ for this classification task.
 | EfficientNet | Pretrained, fine-tuned |
 | ResNet | Pretrained, fine-tuned |
 
+## Dataset
+
+This project uses the [Petals to the Metal — Flower Classification on TPU](https://www.kaggle.com/competitions/tpu-getting-started) 
+dataset from Kaggle, containing 104 flower species across ~12,000 training images 
+stored in TFRecord format.
+
+To download the dataset:
+1. Create a [Kaggle account](https://www.kaggle.com) if you don't have one
+2. Accept the competition rules at the link above
+3. Download the data via the Kaggle API:
+```bash
+pip install kaggle
+kaggle competitions download -c tpu-getting-started
+
 ## Project Structure
+├── Preprocessing.ipynb                         <- Data loading, augmentation pipeline,
+│                                                  and TFRecord parsing
+├── Townsend207EDA.ipynb                        <- Exploratory data analysis and
+│                                                  class distribution visualizations
+├── Townsend209EDA.ipynb                        <- Extended EDA
+├── baseline_cnn_training.ipynb                 <- Custom CNN trained from scratch
+├── samantha-townsend-pretrained-densenet121    <- DenseNet121 transfer learning
+├── EfficientNet.ipynb                          <- EfficientNet transfer learning
+└── ResNet.ipynb                                <- ResNet transfer learning
 
