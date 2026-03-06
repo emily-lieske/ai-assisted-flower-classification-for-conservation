@@ -18,10 +18,10 @@ images, reducing the time and expertise required for manual field identification
 ## Results
 | Model | F1 Score |
 |---|---|
-| EfficientNetB0 | **0.90** |
-| ResNet-50 | — |
-| DenseNet121 | — |
-| Baseline CNN | — |
+| EfficientNetB0 | **0.90481** |
+| ResNet-50 | **0.8980** |
+| DenseNet121 | **0.50942** |
+| Baseline CNN | **0.5646** |
 
 EfficientNetB0 achieved the highest F1 score of 0.90, though all models provided 
 unique insights into the trade-offs between accuracy, speed, and complexity.
